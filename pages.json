@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#eee",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarBackgroundColor":"#eee"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor":"#eee"
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#eee"
+			}
+		},
+		{
+            "path" : "pages/search/search", 
+            "style": {
+            	"navigationBarTitleText": "搜索",
+            	"navigationBarBackgroundColor":"#eee",
+				"app-plus": {"titleNView": false}
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2c2c2c",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/tabbar/home.png",
+			"selectedIconPath":"static/image/tabbar/home-selected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/find/find",
+			"iconPath": "static/image/tabbar/find.png",
+			"selectedIconPath":"static/image/tabbar/find-selected.png",
+			"text": "发现"
+		},{
+			"pagePath": "pages/order/order",
+			"iconPath": "static/image/tabbar/order.png",
+			"selectedIconPath":"static/image/tabbar/order-selected.png",
+			"text": "订单"
+		},{
+			"pagePath": "pages/person/person",
+			"iconPath": "static/image/tabbar/me.png",
+			"selectedIconPath": "static/image/tabbar/me-selected.png",
+			"text": "我的"
+		}]
+	}
+	/* "condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "searchPage",
+				"path": "pages/search/search"
+			}
+		]
+	} */
+}

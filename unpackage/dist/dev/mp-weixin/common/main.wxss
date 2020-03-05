@@ -1,0 +1,172 @@
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+  font-family: 'iconfont';  /* project id 1653109 */
+  src: url('//at.alicdn.com/t/font_1653109_0dazex14bkih.eot');
+  src: url('//at.alicdn.com/t/font_1653109_0dazex14bkih.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1653109_0dazex14bkih.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1653109_0dazex14bkih.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1653109_0dazex14bkih.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1653109_0dazex14bkih.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-home::before{
+	content: "\E63E";
+}
+.icon-entertainment::before{
+	content: "\E643";
+}
+.icon-beauty::before{
+	content: "\E6C2";
+}
+.icon-hotel::before{
+	content: "\E60A";
+}
+.icon-hotel::before{
+	content: "\E60A";
+}
+.icon-foot::before{
+	content: "\E635";
+}
+.icon-movie::before{
+	content: "\E679";
+}
+.icon-travel::before{
+	content: "\E60C";
+}
+.icon-snack::before{
+	content: "\E613";
+}
+.icon-food::before{
+	content: "\E630";
+}
+.icon-life::before{
+	content: "\E664";
+}
+.icon-cemara::before{
+	content: "\E6BA";
+}
+.icon-leisure::before{
+	content: "\E6D9";
+}
+.icon-takeaway::before{
+	content: "\E61B";
+}
+.icon-tag::before{
+	content: "\E623";
+}
+.icon-home::before{
+	content: "\E63E";
+}
+.icon-find::before{
+	content: "\E63B";
+}
+.icon-order::before{
+	content: "\E603";
+}
+.icon-person::before{
+	content: "\E61C";
+}
+.icon-bottle::before{
+	content: "\E60D";
+}
+.icon-heart::before{
+	content: "\E622";
+}
+.icon-book::before{
+	content: "\E63C";
+}
+.icon-arrow-down::before{
+	content: "\E62D";
+}
+.icon-diamond-ring::before{
+	content: "\E61D";
+}
+.icon-dessert::before{
+	content: "\E666";
+}
+.icon-decoration::before{
+	content: "\E621";
+}
+.icon-wedding-dress::before{
+	content: "\E604";
+}
+.icon-voucher::before{
+	content: "\E6E9";
+}
+.icon-ellipsis::before{
+	content: "\E708";
+}
+.icon-arrow-left::before{
+	content: "\E75B";
+}
+.icon-search::before{
+	content: "\E741";
+}
+.page{
+	background-color: #f0efed;
+	color: #333;
+	font-size: 22.51rpx;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1;
+}
+.flex-horizontal-center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.flex-horizontal-align-center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.flex-vetical-center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.flex-vertical-algin-center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.single-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+

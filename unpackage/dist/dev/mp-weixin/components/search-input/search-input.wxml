@@ -1,0 +1,1 @@
+<view class="search-input"><text class="iconfont icon-search" style="height:66.66rpx;line-height:66.66rpx;font-size:37.5rpx;"></text><input class="input" placeholder="请输入商家名丶品类或商圈..." maxlength="-1" data-event-opts="{{[['focus',[['onSearchFocus',['$event']]]]]}}" bindfocus="__e"/></view>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///F:/uniapp/meituan/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA,wCAAmB;;AAEnB;AACA,mF;AACAA,UAAU,CAACC,WAAD,CAAV,C","file":"pages/me/me.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\n\nimport Vue from 'vue'            \nimport Page from './pages/me/me.vue'\ncreatePage(Page)"],"sourceRoot":""}

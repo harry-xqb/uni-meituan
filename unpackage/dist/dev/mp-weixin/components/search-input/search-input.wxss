@@ -1,0 +1,18 @@
+
+.search-input{
+	height: 104.16rpx;
+	width: 469.04rpx;
+	height: 66.66rpx;
+	margin-right: 20rpx;
+	background-color: #FFF9E5;
+	border-radius: 20rpx;
+	padding-left: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.input{
+	height: 66.66rpx;
+	line-height: 66.66rpx;
+}
+

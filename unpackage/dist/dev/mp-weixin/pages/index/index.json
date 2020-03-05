@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#eee",
+  "usingComponents": {
+    "shop-list": "/components/shop-list/shop-list",
+    "category-icon": "/components/category-icon/category-icon",
+    "search-input": "/components/search-input/search-input",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

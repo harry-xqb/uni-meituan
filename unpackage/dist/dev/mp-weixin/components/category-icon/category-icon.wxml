@@ -1,0 +1,1 @@
+<view class="category-item"><view class="icon"><text class="{{['iconfont',icon,'category-icon-circle']}}" style="{{'background:'+(background)+';'}}"></text></view><view><text class="category-icon-description">{{description}}</text></view></view>

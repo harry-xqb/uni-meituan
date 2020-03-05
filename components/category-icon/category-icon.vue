@@ -1,0 +1,48 @@
+<template>
+	<view class="category-item">
+		<view class="icon">
+			<text :class="['iconfont', icon, 'category-icon-circle']"
+				:style="{background: background}"
+			/>
+		</view>
+		<view><text class="category-icon-description">{{description}}</text></view>
+	</view>
+</template> 
+ 
+<script>
+	export default{
+		name: "CategoryIcon",
+		props: {
+			description: String,
+			background: String,
+			icon: String
+		}
+	}
+</script>
+
+<style>
+	.category-item{
+		width: 150rpx;
+		display: flex;
+		flex-direction: column;
+		height: 140.78rpx;
+		padding: 23.07rpx 0 ;
+	}
+	.category-icon-circle{
+		display: block;
+		margin: auto;
+		margin-bottom: 16.15rpx;
+		width: 92.31rpx;
+		height: 92.31rpx;
+		border-radius: 46.15rpx;
+		text-align: center;
+		line-height: 92.31rpx;
+		font-size: 42.66rpx !important;
+		font-weight: bold;
+		color: #fff;
+	}
+	.category-icon-description{
+		-webkit-tap-highlight-color: transparent;
+		font-size: 27.69rpx;
+	}
+</style>

@@ -1,0 +1,1 @@
+<view><view class="header"><view class="left-arrow"><text class="iconfont icon-arrow-left" style="margin:auto;font-size:62.5rpx;color:#666;"></text></view><uni-search-bar class="searchInputBar" vue-id="1" radius="{{20}}" cancelButton="none" bind:__l="__l"></uni-search-bar><view class="searchText"><text>搜索</text></view></view><view></view></view>
